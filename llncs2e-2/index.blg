@@ -1,0 +1,90 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: /Users/thomas/Science/Papers/QTOP2019/llncs2e-2/index.aux
+The style file: splncs04.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "mezard2002random"
+Warning--I didn't find a database entry for "cook1971complexity"
+Warning--I didn't find a database entry for "monasson1996entropy"
+Warning--I didn't find a database entry for "feo1994greedy"
+Warning--I didn't find a database entry for "choi2010adiabatic"
+Warning--I didn't find a database entry for "murty1987some"
+Warning--I didn't find a database entry for "de1989using"
+Warning--I didn't find a database entry for "khuri1994zero"
+Warning--I didn't find a database entry for "anderson1988neural"
+Warning--I didn't find a database entry for "bruck1988power"
+Warning--I didn't find a database entry for "woeginger2003exact"
+Warning--I didn't find a database entry for "glover2013tabu"
+Warning--I didn't find a database entry for "gendreau1994tabu"
+Warning--I didn't find a database entry for "kirkpatrick1983optimization"
+Warning--I didn't find a database entry for "chen1995chaotic"
+Warning--I didn't find a database entry for "monasson1999determining"
+Warning--I didn't find a database entry for "kirkpatrick1994critical"
+Warning--I didn't find a database entry for "cheeseman1991really"
+Warning--I didn't find a database entry for "albash2016adiabatic"
+Warning--I didn't find a database entry for "apolloni1989quantum"
+Warning--I didn't find a database entry for "apolloni1988numerical"
+Warning--I didn't find a database entry for "finnila1994quantum"
+Warning--I didn't find a database entry for "amara1993global"
+Warning--I didn't find a database entry for "kadowaki1998quantum"
+Warning--I didn't find a database entry for "lucas2014ising"
+Warning--I didn't find a database entry for "heim2017designing"
+Warning--I didn't find a database entry for "warren2017small"
+Warning--I didn't find a database entry for "moylett2017quantum"
+Warning--I didn't find a database entry for "strand2017zzz"
+Warning--I didn't find a database entry for "benjamin2017measurement"
+Warning--I didn't find a database entry for "mcgeoch2014adiabatic"
+Warning--I didn't find a database entry for "klauck2017complexity"
+Warning--I didn't find a database entry for "morimae2017merlinization"
+Warning--I didn't find a database entry for "bernstein1997quantum"
+Warning--I didn't find a database entry for "marriott2005quantum"
+Warning--I didn't find a database entry for "choi2011different"
+Warning--I didn't find a database entry for "farhi2000quantum"
+Warning--I didn't find a database entry for "van2001powerful"
+Warning--I didn't find a database entry for "farhi2000numerical"
+Warning--I didn't find a database entry for "farhi2009quantum"
+Warning--I didn't find a database entry for "farhi2001quantum"
+Warning--I didn't find a database entry for "markowitz1957elimination"
+Warning--I didn't find a database entry for "dwavepostprocessing"
+You've used 1 entry,
+            2850 wiz_defined-function locations,
+            642 strings with 5650 characters,
+and the built_in function-call counts, 648 in all, are:
+= -- 40
+> -- 42
+< -- 0
++ -- 18
+- -- 16
+* -- 47
+:= -- 99
+add.period$ -- 1
+call.type$ -- 1
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 51
+empty$ -- 44
+format.name$ -- 17
+if$ -- 122
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 14
+newline$ -- 9
+num.names$ -- 2
+pop$ -- 30
+preamble$ -- 1
+purify$ -- 10
+quote$ -- 0
+skip$ -- 8
+stack$ -- 0
+substring$ -- 14
+swap$ -- 26
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 0
+while$ -- 3
+width$ -- 2
+write$ -- 14
+(There were 43 warnings)

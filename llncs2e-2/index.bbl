@@ -1,0 +1,12 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{feld2018hybrid}
+Feld, S., Roch, C., Gabor, T., Seidel, C., Neukart, F., Galter, I., Mauerer,
+  W., Linnhoff-Popien, C.: A hybrid solution method for the capacitated vehicle
+  routing problem using a quantum annealer. arXiv preprint arXiv:1811.07403
+  (2018)
+
+\end{thebibliography}
