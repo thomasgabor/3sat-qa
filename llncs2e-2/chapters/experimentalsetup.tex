@@ -1,0 +1,13 @@
+
+\section{Experimental Setup}
+\todo{1 SAT w/ Phase Transition}
+\todo{0.5 SAT via WMIS on QA}
+\todo{1 Experimental Setup}
+
+
+\subsection{Optimierungs-Postprocessing des D-Wave}
+Nachdem ein Problem via Quantumannealing gelöst wurde, stellt der D-Wave Quantenannealer zusätzlich die Möglichkeit verschiedener Arten von Postprocessing bereit. In dieser Arbeit wird ausschließlich das Optimierungs-Postprocessing des D-Wave benutzt.\\\\Das Ziel des Optimierungs-Postprocessings ist es, eine Menge an Lösungen zu erhalten, die auf einem bestimmten Graphen $\mathcal{G}$ die geringste Energie aufweisen. Um dies zu erreichen, wird ein gegebener Graph $\mathcal{G}$ durch eine heuristische Methode (vgl. \cite{markowitz1957elimination}) in mehrere Teilgraphen zerlegt. Danach wird die bereits von der QPU erhaltene Lösung so verändert, dass für jeden Subgraphen eine lokal optimale Lösung entsteht. Für eine tiefergehende Darstellung des Postprocessings auf dem D-Wave sei an dieser Stelle auf die D-Wave Dokumentation zu diesem Thema (siehe \cite{dwavepostprocessing}) verwiesen, in welcher auch der hier dargestellte grobe Überblick über das Optimierungs-Postprocessing gefunden werden kann.
+%%%%%%%%%%%% LOGISCHES POSTPROCESSING %%%%%%%%%%%%
+\subsection{Logisches Postprocessing}
+Zusätzlich zum D-Wave Optimierungs-Postprocessing wird in dieser Arbeit ein vom Autor dieser Arbeit erdachtes logisches Postprocessing verwendet, um die ursprünglichen Ergebnisse der QPU weiter zu verbessern. Bei diesem logischen Postprocessing, wird eine von der QPU erhaltene Lösung, welche ein Spinarray der Länge 3\emph{m} ist, wobei \emph{m} die Anzahl der Klauseln in einem 3SAT-Problem darstellt, zurück auf eine Variablenbelegung der logischen Variablen des 3SAT-Problems abgebildet. Danach wird überprüft ob es nicht erfüllte Klauseln gibt. Ist dies der Fall, so wird für jede Variable einer nicht erfüllten Klausel überprüft, ob deren Negation bereits die Belegung \emph{wahr} erhalten hat. Ist dies nicht der Fall, so kann der betrachteten Variable der Wahrheitswert \emph{wahr} zugewiesen werden. In diesem Fall werden weitere Variablen dieser Klausel nicht mehr angesehen und es wird direkt mit der nächsten nicht erfüllten Klausel fortgefahren.
+
