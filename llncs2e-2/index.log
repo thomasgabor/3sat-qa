@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.12.24)  13 DEC 2018 17:09
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.12.24)  13 DEC 2018 17:57
  restricted system commands enabled.
  file:line:error style messages enabled.
 **index.tex
@@ -23,7 +23,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 1.416 seconds
+luaotfload | main : initialization completed in 0.107 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (./llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
@@ -528,197 +528,80 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 456.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) ABD: EveryShipout initializing macros(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-bold.luc) <../material_2/plot_sat.pdf, id=4, 505.89pt x 289.08pt>
+)) ABD: EveryShipout initializing macros(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-bold.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc)
+Overfull \hbox (2.53647pt too wide) in paragraph at lines 62--63
+\TU/lmr/m/n/10 dichte für diese Prob-leme hoch ist, in der an-deren Re-gion ist es sehr un-wahrschein-
+ []
+
+
+Overfull \hbox (3.60646pt too wide) in paragraph at lines 62--63
+\TU/lmr/m/n/10 [7]. Bei den in dieser Ar-beit be-tra-chteten 3SAT-Problemen liegt diese Phasenüber-
+ []
+
+<../material_2/plot_sat.pdf, id=4, 505.89pt x 289.08pt>
 File: ../material_2/plot_sat.pdf Graphic file (type pdf)
  <use ../material_2/plot_sat.pdf>
-Package luatex.def Info: ../material_2/plot_sat.pdf used on input line 64.
+Package luatex.def Info: ../material_2/plot_sat.pdf used on input line 67.
 (luatex.def)             Requested size: 277.69987pt x 158.68571pt.
 
-Underfull \hbox (badness 1137) in paragraph at lines 65--65
+Underfull \hbox (badness 1137) in paragraph at lines 68--68
 []\TU/lmr/bx/n/9 Fig.1. \TU/lmr/m/n/9 Loe-sungs-find-ungs-dauer von 3SAT-Instanzen mit 1000 Klauseln für ver-
  []
 
-(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc)
+(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc) [1
 
-LaTeX Warning: Citation `mezard2002random' on page 1 undefined on input line 69.
-
-[1
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<../material_2/plot_sat.pdf>]
-
-LaTeX Warning: Citation `mezard2002random' on page 2 undefined on input line 71.
-
-
-LaTeX Warning: Citation `cook1971complexity' on page 2 undefined on input line 74.
-
-
-LaTeX Warning: Citation `monasson1996entropy' on page 2 undefined on input line 77.
-
-
-Overfull \hbox (1.86646pt too wide) in paragraph at lines 77--78
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (1.86646pt too wide) in paragraph at lines 79--80
 \TU/lmr/m/n/10 Bei zufäl-lig gener-ierten KSAT-Instanen kann beobachtet wer-den, die Wahrschein-
  []
 
 
-LaTeX Warning: Citation `mezard2002random' on page 2 undefined on input line 79.
-
-
-LaTeX Warning: Reference `crit_sat' on page 2 undefined on input line 79.
-
-
 LaTeX Warning: Reference `crit_sat' on page 2 undefined on input line 81.
+
+
+LaTeX Warning: Reference `crit_sat' on page 2 undefined on input line 83.
 
 (load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc)
 
-LaTeX Warning: Reference `crit_sat' on page 2 undefined on input line 81.
+LaTeX Warning: Reference `crit_sat' on page 2 undefined on input line 83.
 
-
-LaTeX Warning: Citation `feo1994greedy' on page 2 undefined on input line 85.
-
-[2]
-
-LaTeX Warning: Citation `choi2010adiabatic' on page 3 undefined on input line 92.
-
-
-Overfull \hbox (21.50769pt too wide) in paragraph at lines 105--106
+[2<../material_2/plot_sat.pdf>]
+Overfull \hbox (21.50769pt too wide) in paragraph at lines 107--108
 []\TU/lmr/m/n/10 Ist in ger-ade definierter QUBO-Darstellung des WMIS-Problems $\OML/cmm/m/it/10 J[] > min\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 c[]; c[]\OMS/cmsy/m/n/10 g$
  []
 
 
-LaTeX Warning: Citation `murty1987some' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `de1989using' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `khuri1994zero' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `anderson1988neural' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `bruck1988power' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `woeginger2003exact' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `glover2013tabu' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `gendreau1994tabu' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `kirkpatrick1983optimization' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `chen1995chaotic' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `chen1995chaotic' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `monasson1999determining' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `kirkpatrick1994critical' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `cheeseman1991really' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `mezard2002random' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `cook1971complexity' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `albash2016adiabatic' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `apolloni1989quantum' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `apolloni1988numerical' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `albash2016adiabatic' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `finnila1994quantum' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `amara1993global' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `kadowaki1998quantum' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `lucas2014ising' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `heim2017designing' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `warren2017small' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `moylett2017quantum' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `strand2017zzz' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `benjamin2017measurement' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `mcgeoch2014adiabatic' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `klauck2017complexity' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `morimae2017merlinization' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `bernstein1997quantum' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `marriott2005quantum' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `choi2011different' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `choi2010adiabatic' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `farhi2000quantum' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `van2001powerful' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `farhi2000numerical' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `farhi2009quantum' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `farhi2001quantum' on page 3 undefined on input line 112.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
-
- []
+LaTeX Warning: Citation `NPO-Compendium' on page 3 undefined on input line 113.
 
 [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Warning: Reference `TODO:Preliminaries' on page 4 undefined on input line 122.
+
+
+LaTeX Warning: Citation `TODO monasson1999determining' on page 4 undefined on input line 122.
+
+
+LaTeX Warning: Citation `TODO' on page 4 undefined on input line 122.
+
+
+LaTeX Warning: Citation `TODO' on page 4 undefined on input line 122.
+
+
+LaTeX Warning: Citation ` TODO' on page 4 undefined on input line 122.
+
+
+LaTeX Warning: Citation ` TODO' on page 4 undefined on input line 122.
+
+
+LaTeX Warning: Citation `TODO: Originalpaper' on page 4 undefined on input line 124.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \vbox (badness 2158) has occurred while \output is active []
 
  [4]
 
@@ -728,30 +611,24 @@ LaTeX Warning: Marginpar on page 5 moved.
 LaTeX Warning: Marginpar on page 5 moved.
 
 
-LaTeX Warning: Citation `markowitz1957elimination' on page 5 undefined on input line 121.
-
-
-LaTeX Warning: Citation `dwavepostprocessing' on page 5 undefined on input line 121.
-
-
-Overfull \hbox (10.95647pt too wide) in paragraph at lines 121--123
+Overfull \hbox (10.95647pt too wide) in paragraph at lines 135--137
 \TU/lmr/m/n/10 cess-ing bereit. In dieser Ar-beit wird auss-chließlich das Optimierungs-Postprocessing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
 [5]
 
-LaTeX Warning: Reference `red:sat:wmis' on page 6 undefined on input line 133.
+LaTeX Warning: Reference `red:sat:wmis' on page 6 undefined on input line 147.
 
 
-LaTeX Warning: Reference `red:6' on page 6 undefined on input line 133.
+LaTeX Warning: Reference `red:6' on page 6 undefined on input line 147.
 
 
-LaTeX Warning: Reference `red:7' on page 6 undefined on input line 133.
+LaTeX Warning: Reference `red:7' on page 6 undefined on input line 147.
 
 
 LaTeX Warning: Marginpar on page 6 moved.
@@ -759,33 +636,38 @@ LaTeX Warning: Marginpar on page 6 moved.
 <../material_2/Plots/42_4_2_def_engl_color_ohne_transform.png, id=48, 427.8384pt x 336.0555pt>
 File: ../material_2/Plots/42_4_2_def_engl_color_ohne_transform.png Graphic file (type png)
  <use ../material_2/Plots/42_4_2_def_engl_color_ohne_transform.png>
-Package luatex.def Info: ../material_2/Plots/42_4_2_def_engl_color_ohne_transform.png used on input line 139.
+Package luatex.def Info: ../material_2/Plots/42_4_2_def_engl_color_ohne_transform.png used on input line 153.
 (luatex.def)             Requested size: 173.56177pt x 136.32735pt.
  <../material_2/Plots/42_4_2_def_engl_color_mit_transform.png, id=49, 435.7881pt x 351.2322pt>
 File: ../material_2/Plots/42_4_2_def_engl_color_mit_transform.png Graphic file (type png)
  <use ../material_2/Plots/42_4_2_def_engl_color_mit_transform.png>
-Package luatex.def Info: ../material_2/Plots/42_4_2_def_engl_color_mit_transform.png used on input line 140.
+Package luatex.def Info: ../material_2/Plots/42_4_2_def_engl_color_mit_transform.png used on input line 154.
 (luatex.def)             Requested size: 173.56177pt x 139.88478pt.
  <../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png, id=50, 435.7881pt x 351.2322pt>
 File: ../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png Graphic file (type png)
  <use ../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png>
-Package luatex.def Info: ../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png used on input line 146.
+Package luatex.def Info: ../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png used on input line 160.
 (luatex.def)             Requested size: 277.69987pt x 223.8178pt.
  <../material_2/25_clauses__4_2_def_MISBIAS.png, id=51, 415.5525pt x 300.6432pt>
 File: ../material_2/25_clauses__4_2_def_MISBIAS.png Graphic file (type png)
  <use ../material_2/25_clauses__4_2_def_MISBIAS.png>
-Package luatex.def Info: ../material_2/25_clauses__4_2_def_MISBIAS.png used on input line 152.
+Package luatex.def Info: ../material_2/25_clauses__4_2_def_MISBIAS.png used on input line 166.
 (luatex.def)             Requested size: 277.69987pt x 200.91609pt.
  <../material_2/42_clauses__0_2_def_RANDOM_color_transformed.png, id=52, 421.3341pt x 354.123pt>
 File: ../material_2/42_clauses__0_2_def_RANDOM_color_transformed.png Graphic file (type png)
  <use ../material_2/42_clauses__0_2_def_RANDOM_color_transformed.png>
-Package luatex.def Info: ../material_2/42_clauses__0_2_def_RANDOM_color_transformed.png used on input line 158.
+Package luatex.def Info: ../material_2/42_clauses__0_2_def_RANDOM_color_transformed.png used on input line 172.
 (luatex.def)             Requested size: 277.69987pt x 233.40848pt.
  (./index.bbl
 
 LaTeX Warning: Marginpar on page 6 moved.
 
-) [6] [7<../material_2/Plots/42_4_2_def_engl_color_ohne_transform.png><../material_2/Plots/42_4_2_def_engl_color_mit_transform.png><../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png>] [8<../material_2/25_clauses__4_2_def_MISBIAS.png><../material_2/42_clauses__0_2_def_RANDOM_color_transformed.png>] (./index.aux)
+
+Underfull \hbox (badness 3792) in paragraph at lines 7--9
+[]\TU/lmr/m/n/9 Al-bash, T., Li-dar, D.A.: Adi-a-batic quan-tum com-put-ing. arXiv preprint
+ []
+
+[6] [7<../material_2/Plots/42_4_2_def_engl_color_ohne_transform.png><../material_2/Plots/42_4_2_def_engl_color_mit_transform.png><../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png>] [8<../material_2/25_clauses__4_2_def_MISBIAS.png><../material_2/42_clauses__0_2_def_RANDOM_color_transformed.png>] [9]) [10] (./index.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -795,19 +677,19 @@ LaTeX Warning: There were multiply-defined labels.
 )
 
 Here is how much of LuaTeX's memory you used:
- 13575 strings out of 494481
+ 13567 strings out of 494481
  100000,383344 words of node,token memory allocated
- 11310 words of node memory still in use:
-   188 hlist, 24 vlist, 2 rule, 27 disc, 15 local_par, 379 glue, 21 kern, 21 penalty, 249 glyph, 713 attribute, 56 glue_spec, 713 attribute_list, 11 write, 10 save_pos, 475 pdf_literal nodes
-   avail lists: 1:1,2:1435,3:535,4:15,5:433,6:5367,7:1137,8:39,9:293,10:9,11:384
- 17080 multiletter control sequences out of 65536+600000
+ 9401 words of node memory still in use:
+   153 hlist, 20 vlist, 2 rule, 25 disc, 12 local_par, 309 glue, 19 kern, 18 penalty, 223 glyph, 574 attribute, 56 glue_spec, 574 attribute_list, 9 write, 8 save_pos, 380 pdf_literal nodes
+   avail lists: 1:1,2:1435,3:535,4:48,5:295,6:3354,7:944,8:39,9:293,10:9,11:311
+ 17072 multiletter control sequences out of 65536+600000
  45 fonts using 3283103 bytes
- 62i,9n,76p,4887b,724s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on index.pdf (8 pages, 259466 bytes).
+ 62i,9n,76p,1975b,724s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on index.pdf (10 pages, 268356 bytes).
 
-PDF statistics: 150 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+PDF statistics: 156 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

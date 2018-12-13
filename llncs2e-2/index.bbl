@@ -1,12 +1,176 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 \providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{albash2016adiabatic}
+Albash, T., Lidar, D.A.: Adiabatic quantum computing. arXiv preprint
+  arXiv:1611.04471  (2016)
+
+\bibitem{amara1993global}
+Amara, P., Hsu, D., Straub, J.E.: Global energy minimum searches using an
+  approximate solution of the imaginary time schr{\"o}dinger equation. The
+  Journal of Physical Chemistry  \textbf{97}(25),  6715--6721 (1993)
+
+\bibitem{apolloni1989quantum}
+Apolloni, B., Carvalho, C., De~Falco, D.: Quantum stochastic optimization.
+  Stochastic Processes and their Applications  \textbf{33}(2),  233--244 (1989)
+
+\bibitem{apolloni1988numerical}
+Apolloni, B., De~Falco, D., Cesa-Bianchi, N.: A numerical implementation of
+  ``quantum annealing''. Tech. rep. (1988)
+
+\bibitem{benjamin2017measurement}
+Benjamin, S.C., Zhao, L., Fitzsimons, J.F.: Measurement-driven quantum
+  computing: Performance of a 3-sat solver. arXiv preprint arXiv:1711.02687
+  (2017)
+
+\bibitem{bernstein1997quantum}
+Bernstein, E., Vazirani, U.: Quantum complexity theory. SIAM Journal on
+  Computing  \textbf{26}(5),  1411--1473 (1997)
+
+\bibitem{cheeseman1991really}
+Cheeseman, P.C., Kanefsky, B., Taylor, W.M.: Where the really hard problems
+  are. In: IJCAI. vol.~91, pp. 331--340 (1991)
+
+\bibitem{chen1995chaotic}
+Chen, L., Aihara, K.: Chaotic simulated annealing by a neural network model
+  with transient chaos. Neural networks  \textbf{8}(6),  915--930 (1995)
+
+\bibitem{choi2010adiabatic}
+Choi, V.: Adiabatic quantum algorithms for the np-complete maximum-weight
+  independent set, exact cover and 3sat problems. arXiv preprint
+  arXiv:1004.2226  (2010)
+
+\bibitem{choi2011different}
+Choi, V.: Different adiabatic quantum optimization algorithms for the
+  np-complete exact cover and 3sat problems. Quantum Information \& Computation
+   \textbf{11}(7-8),  638--648 (2011)
+
+\bibitem{cook1971complexity}
+Cook, S.A.: The complexity of theorem-proving procedures. In: Proceedings of
+  the third annual ACM symposium on Theory of computing. pp. 151--158. ACM
+  (1971)
+
+\bibitem{farhi2009quantum}
+Farhi, E., Goldstone, J., Gosset, D., Gutmann, S., Meyer, H.B., Shor, P.:
+  Quantum adiabatic algorithms, small gaps, and different paths. arXiv preprint
+  arXiv:0909.4766  (2009)
+
+\bibitem{farhi2000numerical}
+Farhi, E., Goldstone, J., Gutmann, S.: A numerical study of the performance of
+  a quantum adiabatic evolution algorithm for satisfiability. arXiv preprint
+  quant-ph/0007071  (2000)
+
+\bibitem{farhi2001quantum}
+Farhi, E., Goldstone, J., Gutmann, S., Lapan, J., Lundgren, A., Preda, D.: A
+  quantum adiabatic evolution algorithm applied to random instances of an
+  np-complete problem. Science  \textbf{292}(5516),  472--475 (2001)
+
+\bibitem{farhi2000quantum}
+Farhi, E., Goldstone, J., Gutmann, S., Sipser, M.: Quantum computation by
+  adiabatic evolution. arXiv preprint quant-ph/0001106  (2000)
 
 \bibitem{feld2018hybrid}
 Feld, S., Roch, C., Gabor, T., Seidel, C., Neukart, F., Galter, I., Mauerer,
   W., Linnhoff-Popien, C.: A hybrid solution method for the capacitated vehicle
   routing problem using a quantum annealer. arXiv preprint arXiv:1811.07403
   (2018)
+
+\bibitem{feo1994greedy}
+Feo, T.A., Resende, M.G., Smith, S.H.: A greedy randomized adaptive search
+  procedure for maximum independent set. Operations Research  \textbf{42}(5),
+  860--878 (1994)
+
+\bibitem{finnila1994quantum}
+Finnila, A., Gomez, M., Sebenik, C., Stenson, C., Doll, J.: Quantum annealing:
+  a new method for minimizing multidimensional functions. Chemical physics
+  letters  \textbf{219}(5-6),  343--348 (1994)
+
+\bibitem{gendreau1994tabu}
+Gendreau, M., Hertz, A., Laporte, G.: A tabu search heuristic for the vehicle
+  routing problem. Management science  \textbf{40}(10),  1276--1290 (1994)
+
+\bibitem{glover2013tabu}
+Glover, F., Laguna, M.: Tabu search*. In: Handbook of combinatorial
+  optimization, pp. 3261--3362. Springer (2013)
+
+\bibitem{heim2017designing}
+Heim, B., Brown, E.W., Wecker, D., Troyer, M.: Designing adiabatic quantum
+  optimization: A case study for the traveling salesman problem. arXiv preprint
+  arXiv:1702.06248  (2017)
+
+\bibitem{kadowaki1998quantum}
+Kadowaki, T., Nishimori, H.: Quantum annealing in the transverse ising model.
+  Physical Review E  \textbf{58}(5), ~5355 (1998)
+
+\bibitem{kirkpatrick1983optimization}
+Kirkpatrick, S., Gelatt, C.D., Vecchi, M.P.: Optimization by simulated
+  annealing. science  \textbf{220}(4598),  671--680 (1983)
+
+\bibitem{kirkpatrick1994critical}
+Kirkpatrick, S., Selman, B.: Critical behavior in the satisfiability of random
+  boolean expressions. Science  \textbf{264}(5163),  1297--1301 (1994)
+
+\bibitem{klauck2017complexity}
+Klauck, H.: The complexity of quantum disjointness. In: LIPIcs-Leibniz
+  International Proceedings in Informatics. vol.~83. Schloss
+  Dagstuhl-Leibniz-Zentrum fuer Informatik (2017)
+
+\bibitem{lucas2014ising}
+Lucas, A.: Ising formulations of many np problems. Frontiers in Physics
+  \textbf{2}, ~5 (2014)
+
+\bibitem{markowitz1957elimination}
+Markowitz, H.M.: The elimination form of the inverse and its application to
+  linear programming. Management Science  \textbf{3}(3),  255--269 (1957)
+
+\bibitem{marriott2005quantum}
+Marriott, C., Watrous, J.: Quantum arthur--merlin games. Computational
+  Complexity  \textbf{14}(2),  122--152 (2005)
+
+\bibitem{mcgeoch2014adiabatic}
+McGeoch, C.C.: Adiabatic quantum computation and quantum annealing: Theory and
+  practice. Synthesis Lectures on Quantum Computing  \textbf{5}(2),  1--93
+  (2014)
+
+\bibitem{mezard2002random}
+M{\'e}zard, M., Zecchina, R.: Random k-satisfiability problem: From an analytic
+  solution to an efficient algorithm. Physical Review E  \textbf{66}(5),
+  056126 (2002)
+
+\bibitem{monasson1996entropy}
+Monasson, R., Zecchina, R.: Entropy of the k-satisfiability problem. Physical
+  review letters  \textbf{76}(21), ~3881 (1996)
+
+\bibitem{morimae2017merlinization}
+Morimae, T., Nishimura, H.: Merlinization of complexity classes above bqp.
+  arXiv preprint arXiv:1704.01514  (2017)
+
+\bibitem{moylett2017quantum}
+Moylett, D.J., Linden, N., Montanaro, A.: Quantum speedup of the
+  traveling-salesman problem for bounded-degree graphs. Physical Review A
+  \textbf{95}(3),  032323 (2017)
+
+\bibitem{murty1987some}
+Murty, K.G., Kabadi, S.N.: Some np-complete problems in quadratic and nonlinear
+  programming. Mathematical programming  \textbf{39}(2),  117--129 (1987)
+
+\bibitem{strand2017zzz}
+Strand, J., Przybysz, A., Ferguson, D., Zick, K.: Zzz coupler for native
+  embedding of max-3sat problem instances in quantum annealing hardware. In:
+  APS Meeting Abstracts (2017)
+
+\bibitem{dwavepostprocessing}
+Systems, D.W.: Postprocessing Methods on D-Wave Systems (2016)
+
+\bibitem{van2001powerful}
+Van~Dam, W., Mosca, M., Vazirani, U.: How powerful is adiabatic quantum
+  computation? In: Foundations of Computer Science, 2001. Proceedings. 42nd
+  IEEE Symposium on. pp. 279--287. IEEE (2001)
+
+\bibitem{warren2017small}
+Warren, R.H.: Small traveling salesman problems. Journal of Advances in Applied
+  Mathematics  \textbf{2}(2) (2017)
 
 \end{thebibliography}
