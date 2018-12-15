@@ -121,6 +121,11 @@ Klauck, H.: The complexity of quantum disjointness. In: LIPIcs-Leibniz
 Lucas, A.: Ising formulations of many np problems. Frontiers in Physics
   \textbf{2}, ~5 (2014)
 
+\bibitem{mandra2017exponentially}
+Mandra, S., Zhu, Z., Katzgraber, H.G.: Exponentially biased ground-state
+  sampling of quantum annealing machines with transverse-field driving
+  hamiltonians. Physical review letters  \textbf{118}(7),  070502 (2017)
+
 \bibitem{markowitz1957elimination}
 Markowitz, H.M.: The elimination form of the inverse and its application to
   linear programming. Management Science  \textbf{3}(3),  255--269 (1957)

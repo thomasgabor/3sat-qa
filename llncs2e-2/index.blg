@@ -18,45 +18,45 @@ Database file #1: references.bib
 Warning--I didn't find a database entry for "NPO-Compendium"
 Warning--I didn't find a database entry for "TODO"
 Warning--missing institution in apolloni1988numerical
-You've used 38 entries,
+You've used 39 entries,
             2850 wiz_defined-function locations,
-            834 strings with 10913 characters,
-and the built_in function-call counts, 21066 in all, are:
-= -- 1741
-> -- 581
-< -- 47
-+ -- 249
-- -- 202
-* -- 1306
-:= -- 2633
-add.period$ -- 45
-call.type$ -- 38
-change.case$ -- 227
+            840 strings with 11118 characters,
+and the built_in function-call counts, 21733 in all, are:
+= -- 1798
+> -- 598
+< -- 49
++ -- 256
+- -- 208
+* -- 1347
+:= -- 2710
+add.period$ -- 46
+call.type$ -- 39
+change.case$ -- 233
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 1948
-empty$ -- 1904
-format.name$ -- 231
-if$ -- 4607
+cite$ -- 40
+duplicate$ -- 2010
+empty$ -- 1961
+format.name$ -- 238
+if$ -- 4758
 int.to.chr$ -- 0
-int.to.str$ -- 38
-missing$ -- 378
-newline$ -- 120
-num.names$ -- 76
-pop$ -- 686
+int.to.str$ -- 39
+missing$ -- 389
+newline$ -- 123
+num.names$ -- 78
+pop$ -- 704
 preamble$ -- 1
-purify$ -- 177
+purify$ -- 182
 quote$ -- 0
-skip$ -- 626
+skip$ -- 652
 stack$ -- 0
-substring$ -- 1243
-swap$ -- 1126
-text.length$ -- 47
+substring$ -- 1286
+swap$ -- 1169
+text.length$ -- 49
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 152
+type$ -- 156
 warning$ -- 1
-while$ -- 181
-width$ -- 40
-write$ -- 376
+while$ -- 186
+width$ -- 41
+write$ -- 386
 (There were 3 error messages)
