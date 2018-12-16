@@ -77,11 +77,6 @@ Feld, S., Roch, C., Gabor, T., Seidel, C., Neukart, F., Galter, I., Mauerer,
   routing problem using a quantum annealer. arXiv preprint arXiv:1811.07403
   (2018)
 
-\bibitem{feo1994greedy}
-Feo, T.A., Resende, M.G., Smith, S.H.: A greedy randomized adaptive search
-  procedure for maximum independent set. Operations Research  \textbf{42}(5),
-  860--878 (1994)
-
 \bibitem{finnila1994quantum}
 Finnila, A., Gomez, M., Sebenik, C., Stenson, C., Doll, J.: Quantum annealing:
   a new method for minimizing multidimensional functions. Chemical physics
@@ -125,10 +120,6 @@ Lucas, A.: Ising formulations of many np problems. Frontiers in Physics
 Mandra, S., Zhu, Z., Katzgraber, H.G.: Exponentially biased ground-state
   sampling of quantum annealing machines with transverse-field driving
   hamiltonians. Physical review letters  \textbf{118}(7),  070502 (2017)
-
-\bibitem{markowitz1957elimination}
-Markowitz, H.M.: The elimination form of the inverse and its application to
-  linear programming. Management Science  \textbf{3}(3),  255--269 (1957)
 
 \bibitem{marriott2005quantum}
 Marriott, C., Watrous, J.: Quantum arthur--merlin games. Computational

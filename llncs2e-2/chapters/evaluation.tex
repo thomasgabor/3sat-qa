@@ -1,7 +1,8 @@
 
 \section{Evaluation}
+\label{sec:evaluation}
 
-To assess the solution quality of 3SAT on a quantum annealing platform, using the previously discussed method of encoding 3SAT problems, we ran several experiments on a D-Wave 2000Q system. Using ToughSAT\footnote{\url{https://toughsat.appspot.com/}} we generated 3SAT instances of various difficulty (i.e., with various values for $\alpha$). However, as discussed in Section~\ref{}, for $|\alpha - 4.2| \gg 0$ problem instances become very easy to solve. We observed that effect on the quantum annealer as well, i.e., all of these instances were trivially solved on the D-Wave machine. Thus, for the remainder of this section, we focus on hard instances (with $\alpha = 4.2$) to assess the quality in the really hard cases. 
+To assess the solution quality of 3SAT on a quantum annealing platform, using the previously discussed method of encoding 3SAT problems, we ran several experiments on a D-Wave 2000Q system. Using ToughSAT\footnote{\url{https://toughsat.appspot.com/}} we generated 3SAT instances of various difficulty (i.e., with various values for $\alpha$). However, as discussed in Section~\ref{sec:preliminaries}, for $|\alpha - 4.2| \gg 0$ problem instances become very easy to solve. We observed that effect on the quantum annealer as well, i.e., all of these instances were trivially solved on the D-Wave machine. Thus, for the remainder of this section, we focus on hard instances (with $\alpha = 4.2$) to assess the quality in the really hard cases. 
 
 Experiments have shown that using the standard embedding tools delivered with the D-Wave platform, we can only reliably find a working embedding on the D-Wave 2000Q chip for 3SAT instances with at most $42$ clauses. In order to maintain $\alpha = 4.2$, it follows that the generated 3SAT instance contain $10$ different variables. We only assess solution quality for 3SAT instances that are satisfiable (but of course we are not telling the solver that).
 

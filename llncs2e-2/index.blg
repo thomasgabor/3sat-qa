@@ -1,15 +1,15 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
-White space in argument---line 39 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
+White space in argument---line 37 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
  : \citation{TODO
  :                monasson1999determining}
 I'm skipping whatever remains of this command
-White space in argument---line 41 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
+White space in argument---line 39 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
  : \citation{TODO,
  :                 TODO, TODO}
 I'm skipping whatever remains of this command
-White space in argument---line 42 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
+White space in argument---line 40 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
  : \citation{TODO:
  :                 Originalpaper,albash2016adiabatic}
 I'm skipping whatever remains of this command
@@ -17,46 +17,47 @@ The style file: splncs04.bst
 Database file #1: references.bib
 Warning--I didn't find a database entry for "NPO-Compendium"
 Warning--I didn't find a database entry for "TODO"
+Warning--I didn't find a database entry for ""
 Warning--missing institution in apolloni1988numerical
-You've used 39 entries,
+You've used 37 entries,
             2850 wiz_defined-function locations,
-            840 strings with 11118 characters,
-and the built_in function-call counts, 21733 in all, are:
-= -- 1798
-> -- 598
-< -- 49
-+ -- 256
-- -- 208
-* -- 1347
-:= -- 2710
-add.period$ -- 46
-call.type$ -- 39
-change.case$ -- 233
+            828 strings with 10796 characters,
+and the built_in function-call counts, 20521 in all, are:
+= -- 1692
+> -- 574
+< -- 45
++ -- 244
+- -- 200
+* -- 1270
+:= -- 2568
+add.period$ -- 44
+call.type$ -- 37
+change.case$ -- 223
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 2010
-empty$ -- 1961
-format.name$ -- 238
-if$ -- 4758
+cite$ -- 38
+duplicate$ -- 1899
+empty$ -- 1851
+format.name$ -- 229
+if$ -- 4488
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 389
-newline$ -- 123
-num.names$ -- 78
-pop$ -- 704
+int.to.str$ -- 37
+missing$ -- 369
+newline$ -- 117
+num.names$ -- 74
+pop$ -- 675
 preamble$ -- 1
-purify$ -- 182
+purify$ -- 174
 quote$ -- 0
-skip$ -- 652
+skip$ -- 610
 stack$ -- 0
-substring$ -- 1286
-swap$ -- 1169
-text.length$ -- 49
+substring$ -- 1194
+swap$ -- 1095
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 156
+type$ -- 148
 warning$ -- 1
-while$ -- 186
-width$ -- 41
-write$ -- 386
+while$ -- 174
+width$ -- 39
+write$ -- 366
 (There were 3 error messages)

@@ -9,10 +9,15 @@
 \@writefile{toc}{\contentsline {author}{Thomas Gabor \and Sebastian Zielinski \and Sebastian Feld \and Christoph Roch \and Christian Seidel \and Florian Neukart \and Isabella Galter \and \unskip \ \ignorespaces  Wolfgang Mauerer \and Claudia Linnhoff-Popien}{1}}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
 \@writefile{tdo}{\contentsline {todo}{0.5 Introduction}{1}}
-\pgfsyspdfmark {pgfid1}{27379629}{26204967}
-\pgfsyspdfmark {pgfid4}{35267773}{26216927}
-\pgfsyspdfmark {pgfid5}{38200508}{25993122}
+\pgfsyspdfmark {pgfid1}{27379629}{25995977}
+\pgfsyspdfmark {pgfid4}{35267773}{26007937}
+\pgfsyspdfmark {pgfid5}{38200508}{25784132}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Preliminaries}{1}}
+\newlabel{sec:preliminaries}{{2}{1}}
+\@writefile{tdo}{\contentsline {todo}{1 SAT w/ Phase Transition}{1}}
+\pgfsyspdfmark {pgfid6}{8865054}{22272594}
+\pgfsyspdfmark {pgfid9}{35267773}{22284554}
+\pgfsyspdfmark {pgfid10}{38200508}{22060749}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Phase transitions in SAT solving}{1}}
 \citation{cook1971complexity}
 \citation{monasson1996entropy}
@@ -21,19 +26,12 @@
 \newlabel{fig:distr}{{1}{2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Kritischer Punkt bei zufällig generierten KSAT-Instanzen}{2}}
 \newlabel{krit:sat}{{2.2}{2}}
-\citation{feo1994greedy}
-\citation{choi2010adiabatic}
 \citation{cook1971complexity,murty1987some}
 \citation{glover2013tabu}
 \citation{gendreau1994tabu}
 \citation{kirkpatrick1983optimization}
 \citation{chen1995chaotic}
 \citation{NPO-Compendium}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Das Problem der maximal gewichteten unabhängigen Menge}{3}}
-\newlabel{chap:wmis}{{2.3}{3}}
-\newlabel{def:unabhmenge}{{2.3}{3}}
-\newlabel{wmis:qubo}{{2}{3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Related Work}{3}}
 \citation{chen1995chaotic}
 \citation{kirkpatrick1994critical}
 \citation{TODO monasson1999determining}
@@ -61,41 +59,35 @@
 \citation{farhi2000numerical}
 \citation{farhi2009quantum}
 \citation{farhi2001quantum}
-\citation{markowitz1957elimination}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Related Work}{3}}
+\citation{mcgeoch2014adiabatic}
+\citation{}
+\citation{choi2010adiabatic,choi2011different}
+\citation{choi2010adiabatic,choi2011different,lucas2014ising}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experimental Setup}{4}}
+\newlabel{sec:exp-setup}{{4}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Defining 3SAT as a QUBO matrix}{4}}
 \citation{dwavepostprocessing}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Experimental Setup}{5}}
-\@writefile{tdo}{\contentsline {todo}{1 SAT w/ Phase Transition}{5}}
-\pgfsyspdfmark {pgfid6}{8865054}{42431321}
-\@writefile{tdo}{\contentsline {todo}{0.5 SAT via WMIS on QA}{5}}
-\pgfsyspdfmark {pgfid11}{8865054}{42431321}
-\@writefile{tdo}{\contentsline {todo}{1 Experimental Setup}{5}}
-\pgfsyspdfmark {pgfid16}{8865054}{42431321}
-\pgfsyspdfmark {pgfid9}{35267773}{42443281}
-\pgfsyspdfmark {pgfid10}{38200508}{42219476}
-\pgfsyspdfmark {pgfid14}{35267773}{40345737}
-\pgfsyspdfmark {pgfid15}{38200508}{40121932}
-\pgfsyspdfmark {pgfid19}{35267773}{38150543}
-\pgfsyspdfmark {pgfid20}{38200508}{37926738}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Optimierungs-Postprocessing des D-Wave}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Logisches Postprocessing}{5}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Evaluation}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Distribution of correct (green) and incorrect (red) answers returned by the quantum annealer \emph  {without D-WAVE postprocessing}. Answers that can trivially be transformed into valid answers using logical postprocessing are marked in yellow. The plot shows 100,000 answers in total for 100 different hard 3SAT instances ($\alpha \approx 4.2$).}}{6}}
-\newlabel{fig:distr-no-pp}{{2}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Distribution of correct (green) and incorrect (red) answers returned by the quantum annealer \emph  {using D-WAVE postprocessing}. Answers that can trivially be transformed into valid answers using logical postprocessing are marked in yellow. The plot shows 100,000 answers in total for 100 different hard 3SAT instances ($\alpha \approx 4.2$).}}{7}}
-\newlabel{fig:distr-yes-pp}{{3}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Evaluating Postprocessing}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Evaluation}{6}}
+\newlabel{sec:evaluation}{{5}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Distribution of correct (green) and incorrect (red) answers returned by the quantum annealer \emph  {without D-WAVE postprocessing}. Answers that can trivially be transformed into valid answers using logical postprocessing are marked in yellow. The plot shows 100,000 answers in total for 100 different hard 3SAT instances ($\alpha \approx 4.2$).}}{7}}
+\newlabel{fig:distr-no-pp}{{2}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Distribution of correct (green) and incorrect (red) answers returned by the quantum annealer \emph  {using D-WAVE postprocessing}. Answers that can trivially be transformed into valid answers using logical postprocessing are marked in yellow. The plot shows 100,000 answers in total for 100 different hard 3SAT instances ($\alpha \approx 4.2$).}}{8}}
+\newlabel{fig:distr-yes-pp}{{3}{8}}
 \citation{mandra2017exponentially}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Frequency of occurrence of different solutions for 5 formulae with many returned solutions. While most solutions are found once or just a few times, there are specific solutions that are found much more often.}}{8}}
-\newlabel{fig:distr-sols}{{4}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Frequency of occurrence of different solutions for 5 formulae with many returned solutions. While most solutions are found once or just a few times, there are specific solutions that are found much more often.}}{9}}
+\newlabel{fig:distr-sols}{{4}{9}}
 \bibstyle{splncs04}
 \bibdata{references}
 \bibcite{albash2016adiabatic}{1}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Distribution of correct (green) and incorrect (red) answers returned by two different random generators. Answers that can trivially be transformed into valid answers using logical postprocessing are marked in yellow. Both plots shows 100,000 answers in total for 100 different hard 3SAT instances ($\alpha \approx 0.2$).}}{9}}
-\newlabel{fig:distr-random}{{5}{9}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{9}}
-\@writefile{tdo}{\contentsline {todo}{1 Discussion \& Conclusion (7.5.3)}{9}}
-\pgfsyspdfmark {pgfid21}{8865054}{8702802}
-\pgfsyspdfmark {pgfid24}{35267773}{8714762}
-\pgfsyspdfmark {pgfid25}{38200508}{8490957}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Distribution of correct (green) and incorrect (red) answers returned by two different random generators. Answers that can trivially be transformed into valid answers using logical postprocessing are marked in yellow. Both plots shows 100,000 answers in total for 100 different hard 3SAT instances ($\alpha \approx 0.2$).}}{10}}
+\newlabel{fig:distr-random}{{5}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{10}}
+\@writefile{tdo}{\contentsline {todo}{1 Discussion \& Conclusion (7.5.3)}{10}}
+\pgfsyspdfmark {pgfid11}{8865054}{8702802}
+\pgfsyspdfmark {pgfid12}{5178653}{8714762}
+\pgfsyspdfmark {pgfid13}{8111388}{8490957}
 \bibcite{amara1993global}{2}
 \bibcite{apolloni1989quantum}{3}
 \bibcite{apolloni1988numerical}{4}
@@ -111,26 +103,24 @@
 \bibcite{farhi2001quantum}{14}
 \bibcite{farhi2000quantum}{15}
 \bibcite{feld2018hybrid}{16}
-\bibcite{feo1994greedy}{17}
-\bibcite{finnila1994quantum}{18}
-\bibcite{gendreau1994tabu}{19}
-\bibcite{glover2013tabu}{20}
-\bibcite{heim2017designing}{21}
-\bibcite{kadowaki1998quantum}{22}
-\bibcite{kirkpatrick1983optimization}{23}
-\bibcite{kirkpatrick1994critical}{24}
-\bibcite{klauck2017complexity}{25}
-\bibcite{lucas2014ising}{26}
-\bibcite{mandra2017exponentially}{27}
-\bibcite{markowitz1957elimination}{28}
-\bibcite{marriott2005quantum}{29}
-\bibcite{mcgeoch2014adiabatic}{30}
-\bibcite{mezard2002random}{31}
-\bibcite{monasson1996entropy}{32}
-\bibcite{morimae2017merlinization}{33}
-\bibcite{moylett2017quantum}{34}
-\bibcite{murty1987some}{35}
-\bibcite{strand2017zzz}{36}
-\bibcite{dwavepostprocessing}{37}
-\bibcite{van2001powerful}{38}
-\bibcite{warren2017small}{39}
+\bibcite{finnila1994quantum}{17}
+\bibcite{gendreau1994tabu}{18}
+\bibcite{glover2013tabu}{19}
+\bibcite{heim2017designing}{20}
+\bibcite{kadowaki1998quantum}{21}
+\bibcite{kirkpatrick1983optimization}{22}
+\bibcite{kirkpatrick1994critical}{23}
+\bibcite{klauck2017complexity}{24}
+\bibcite{lucas2014ising}{25}
+\bibcite{mandra2017exponentially}{26}
+\bibcite{marriott2005quantum}{27}
+\bibcite{mcgeoch2014adiabatic}{28}
+\bibcite{mezard2002random}{29}
+\bibcite{monasson1996entropy}{30}
+\bibcite{morimae2017merlinization}{31}
+\bibcite{moylett2017quantum}{32}
+\bibcite{murty1987some}{33}
+\bibcite{strand2017zzz}{34}
+\bibcite{dwavepostprocessing}{35}
+\bibcite{van2001powerful}{36}
+\bibcite{warren2017small}{37}
