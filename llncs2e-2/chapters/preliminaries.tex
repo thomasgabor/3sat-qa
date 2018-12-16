@@ -1,55 +1,52 @@
 \section{Preliminaries}
-\label{sec:preliminaries}
-\todo{1 SAT w/ Phase Transition}
 
-A 3SAT instance with $m$ clauses and $n$ variables is given as a list of clauses $(c_k)_{0 \leq k \leq m-1}$ of the form $c_k = (l_{3k} \land l_{3k+1} \land l_{3k+1})$ and a list of variables $(v_j)_{0 \leq j \leq n-1}$ so that $l_i$ is a literal of the form $l_i \in \bigcup_{0 \leq j \leq n-1} \{v_j, \lnot v_j\}$. A given 3SAT instance is \emph{satisfiable} iff there exists a variable assignment $(v_j \mapsto b_j)_{0 \leq j \leq n-1}$ with $b_j \in \{\textit{True}, \textit{False}\}$ so that $\bigwedge_{0 \leq k \leq m-1} c_k$ reduces to $\textit{True}$ when interpreting all logical operators as is common.
+The K-Satisfiability Problem (hereinafter called \emph{K-SAT}) belongs to the class of NP-complete problems. K-SAT (for K $\geq$ 3) is a central problem in combinatorial optimization and was the first problem for which NP-completeness could be shown \cite{mezard2002random}.
+
+According to \cite{mezard2002random} the problem can be formulated as follows:
+Given is a set $\mathcal{B}$ consisting of N Boolean \emph{variables}. K variables are selected from the set $\mathcal{B}$ and they (or their negations) are then combined by (K-1) OR-Operators to form a \emph{clause}.
+In this way M clauses are formed. These clauses are joined by applying (M-1) AND-Operators such that a K-SAT instance is created.\\The K-SAT problem asks the question, whether there is an allocation of the boolean variables from $\mathcal{B}$, so that a given K-SAT instance can be fulfilled. 
+
+In this paper only randomly generated K-SAT instances for K = 3 are considered. These problems are then called 3-SAT and are NP-complete after \cite{cook1971complexity}.\\
+
+\textbf{Example 3-SAT instance.} \emph{As explained in the previous problem formulation, a 3-SAT instance consists of 3 variables per clause. An instance of a 3-SAT problem is for example:} $\Psi = ( x_{1} \vee x_{2} \vee x_{3}) \wedge ( \overline{x_{1}} \vee x_{2} \vee x_{3})$.\\
 
 \subsection{Phase transitions in SAT solving}
-Diese Phasenübergangsgrenze teilt den Problemraum in zwei Regionen. In der einen Region kann eine Lösung relativ leicht gefunden werden, da die Lösungsdichte für diese Probleme hoch ist, in der anderen Region ist es sehr unwahrscheinlich, dass Probleme überhaupt eine korrekte Lösung enthalten können. Sehr schwer zu lösende Probleme befinden sich direkt an der Phasenübergangsgrenze \cite{cheeseman1991really}. Bei den in dieser Arbeit betrachteten 3SAT-Problemen liegt diese Phasenübergangsgrenze bei einem Klausel zu Variablenverhältnis von ca. 4.267~\cite{mezard2002random}.
+Despite the fact that for NP-complete problems in general no algorithm is known, which can solve all problem instances of a problem efficiently, i.e. in polynomial time, it is within the scope of knowledge, that certain problem instances for many NP-complete problems, including K-SAT, are easy to solve \cite{cheeseman1991really}. In \cite{monasson1999determining} this characteristic is described with a phase transition. The boundary of this phase transition divides the problem space into two regions. In one region a solution can be found relatively easily, because the solution density for these problems is high, in the other region it is very unlikely that problems can contain a correct solution at all. Problems that are very difficult to solve are located directly at this phase boundary \cite{cheeseman1991really}. 
 
-TODO: See Figure~\ref{fig:distr}.
+It can be observed that, with randomly generated K-SAT instances, the probability of finding a correct solution decreases abruptly when a critical value of $\alpha_{c}$ (formed from the ratio of number of clauses to number of variables) is exceeded \cite{monasson1996entropy}. According to \cite{mezard2002random} this critical point is $\alpha_{c} \approx $ 4.267 for randomly generated 3-SAT instances. In the surrounding area of the critical point the solution finding (here not only a concrete allocation is meant, if the instance is solvable, but also the realization that this instance cannot be solved) is algorithmically complex. Fig. \ref{fig:crit_sat} illustrates this phenomenon visually.
+
 \begin{figure}
-\centering
-\includegraphics[width=.8\textwidth]{../material_2/plot_sat.pdf}
-\caption{Loesungsfindungsdauer von 3SAT-Instanzen mit 1000 Klauseln für ver- schiedene Anzahl von Variablen.} \label{fig:distr}
+	\centering
+	\includegraphics[width=.8\textwidth]{../material_2/plot_sat.pdf}
+	\caption{Phase transition of SAT solving. In the lower figure the computational time for finding a solution for 3-SAT instances with a specific clauses-to-variables ratio (c/v-ratio) can be seen. The critical point is around $\alpha_{c} \approx $ 4.267 . In this regard, the upper figure shows the propability, whether these problem instances are solvable. So for the critical point it's hard to determine, whether a problem instance can be fulfilled with a concrete allocation or not. TODO Achsenbeschriftung value/50 M/200 erklären} \label{fig:crit_sat}
 \end{figure}
 
-Das K -Erfüllbarkeitsproblem (im Folgenden\emph{ KSAT} genannt) gehört zur Klasse der NP-Vollständigen Probleme. KSAT ist, für K > 3, ein zentrales Problem in der kombinatorischen Optimierung und war das erste Problem, für das die NP-Vollständigkeit gezeigt werden konnte \cite{mezard2002random}.
+In order to assess the solution quality of randomly generated 3-SAT instances we take the phase transition into account
+and generate instances of every complexity region. More information about that in section Experimental Setup.
 
-%Problembeschreibung: K - Erfüllbarkeitsproblem (nach  \cite{mezard2002random})
-%Gegeben sei eine Menge $\mathcal{B}$, bestehend aus N booleschen Variablen. Aus dieser Menge $\mathcal{B}$ werden dann K Variablen ausgewählt. Die ausgewählten Variablen, oder deren Verneinungen, werden dann durch (K-1) Oder-Operatoren zu einer \emph {Klausel} zusammengefasst. Auf diese Art und Weise werden M Klauseln gebildet. Durch anwenden von (M-1) Und - Operatoren entsteht so eine KSAT-Instanz.\\Das KSAT-Problem ist nun die Frage, ob eine Belegung der boolschen Variablen aus $\mathcal{B}$ existiert, so dass eine gegebene KSAT-Instanz erfüllbar ist.
-%
-%In dieser Arbeit werden ausschließlich zufällig generierte KSAT-Instanzen für K=3 betrachtet. Diese Probleme werden dann 3SAT genannt und sind nach \cite{cook1971complexity} NP-Vollständing.
+\subsection{Reduction from 3-SAT to Weighted Maximum Independent Set}
+Since it can be shown that the Weighted Maximum Independent Set (WMIS) problem is equivalent to the Ising model \cite{choi2008minor}, the 3-SAT problem is first transformed into a WMIS problem, which can then be solved on an adiabatic quantum computer based on this equivalence.\\
 
-\subsection{Kritischer Punkt bei zufällig generierten KSAT-Instanzen}\label{krit:sat}
-Bei zufällig generierten KSAT-Instanen kann beobachtet werden, die Wahrscheinlichkeit, eine korrekte Lösung für die Instanz zu finden, abrupt sinkt, wenn ein kritischer Wert $\alpha_{c}$ (gebildet aus dem Verhältnis von Anzahl der Klauseln zu Anzahl der Variablen) überschritten wird \cite{monasson1996entropy}.
+The WMIS can be formulated as follows: Given is an undirected graph $\mathcal{G} = (V, E)$, where V is the set of vertices and E is the set of edges of $\mathcal{G}$, in which each vertice v $\in$ V is provided with a positive real weight $c_{v}$.\\
+The problem is then to find a set S $\subset$ V, so that S is an independent set and the total weight of S, given by $\sum_{v \in S} c_{v}$, is a maximum. The optimal solution is also called WMIS($\mathcal{G}$).
 
-Nach \cite{mezard2002random} liegt dieser kritische Punkt bei zufällig erzeugten 3SAT-Instanzen bei \\$\alpha_{c} \approx 4,267$. In der Umgebung des kritschen Punkts ist die Lösungsfindung (damit ist hier nicht nur eine konkrete Belegung gemeint, falls die Instanz lösbar ist, sondern auch die Erkenntnis, dass diese Instanz nicht gelöst werden kann) algorithmisch komplex. Abb. \ref{crit_sat} verdeutlicht dieses Phänomen visuell.
+The reduction from 3-SAT to WMIS is well known after \cite{choi2010adiabatic} and is for completeness recalled below.\\
 
-Zur Erstellung von Abb. \ref{crit_sat} wurden mit Hilfe des \emph{Tough SAT Generators}\footnote{https://toughsat.appspot.com/} 3SAT-Instanzen zu je 1000 Klauseln erstellt. Die Größe der  Menge der boolschen Variablen wurde ausgehend von 1000 schrittweise um 10 verringert, bis ein abschließendes Klausel zu Variablenverhältnis von ca. 7 erreicht wurde. Für jede Größe der so erzeugten Variablenmenge wurden 10 Instanzen erzeugt. Die verschiedenen Instanzen wurden dann mit dem SAT-Solver \emph{Minisat}\footnote{http://minisat.se/} gelöst. In Abb. \ref{crit_sat} ist dann einmal die durchschnittliche sowie die maximale Lösungsdauer der 10 Instanzen für ein bestimmtes Verhältnis dargestellt.
- %%%%%%%%%%%%%%%%% Maximum-Weight Independetn Set %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\subsection{Das Problem der maximal gewichteten unabhängigen Menge}\label{chap:wmis}
-%
-%--Unabhängige Menge \cite{feo1994greedy}]\label{def:unabhmenge}
-%Gegeben sei ein Graph $\mathcal{G} = (V,E)$, wobei V die Menge der Knoten des Graphs ist und E die Menge der Kanten des Graphs.\\Eine \emph{unabhängige Menge} von $\mathcal{G}$ ist eine Menge V' $\subset$ V mit folgender Eigenschaft:
-%\begin{equation}
-%(i,j) \notin E \;\;\;\forall i,j \in V' 
-%\end{equation}
-%Eine \emph{unabhänginge Menge} eines Graphen $\mathcal{G}$ ist also eine Teilmenge V' der Knoten von $\mathcal{G}$ so, dass die Knoten aus V' paarweise nicht direkt durch eine Kante von $\mathcal{G}$  verbunden sind.
-%
-%--Maximal gewichtete unabhängige Menge \cite{choi2010adiabatic}
-%Gegeben sei ein ungerichteter Graph $\mathcal{G} = (V, E)$, wobei V die Menge der Knoten und E die Menge der Kanten von $\mathcal{G}$ sind, bei dem jeder Knoten v $\in$ V mit einem positiven reellen Gewicht $c_{v}$ versehen wird.\\
-%Das Problem ist es dann eine Menge S $\subset$ V zu finden, so dass S eine unabhängige Menge im Sinne von Def. \ref{def:unabhmenge} ist und das Gesamtgewicht von S, gegeben durch $\sum_{v \in S} c_{v}$, maximal ist. Die optimale Lösung wird auch mit WMIS($\mathcal{G}$ ) bezeichnet.
-%
-%\noindent
-%Das Problem der maximal gewichteten unabhängingen Menge wird im Folgenden \emph{WMIS} (engl. Weighted Maximum Independent Set) genannt. Für dieses Problem existiert die folgende QUBO-Darstellung:
-%
-%Es sei der gleiche Graph $\mathcal{G}$ wie aus der vorhergehenden Problembeschreibung gegeben. Die QUBO-Formulierung des WMIS-Problems lautet dann:
-%\begin{equation}\label{wmis:qubo}
-%Maximiere \;\;\mathcal{Y}(x_{1},...,x_{n}) = \sum_{i \in V}c_{i}x_{i} - \sum_{i,j \in E}J_{ij}x_{i}x_{j}
-%\end{equation}
-%
-%
-%Ist in gerade definierter QUBO-Darstellung des WMIS-Problems $J_{ij} > min \{c_{i},c_{j}\}$ für alle i,j $\in$ E dann ist das WMIS von $\mathcal{G}$ gegeben durch $WMIS(\mathcal{G})=\{v \in V: x^*_{v}=1\}$, wobei $(x^*_{1},...,x^*_{n})$ = arg $max_{(x_{1},...x_{n})\in{0,1}^n} \mathcal{Y}(x_{1},...,x_{n}).$
-%
-%Es sei  $(x^*_{1},...,x^*_{n})$ = arg $max_{(x_{1},...x_{n})\in{0,1}^n} \mathcal{Y}(x_{1},...,x_{n})$. Weiter sei S* = $\{v \in V: x^*_{v}=1\}$ gegeben. Angenommen, S* ist keine unabhängige Menge. Es gibt also zwei Knoten x,y $\in$ S* die durch eine Kante aus $\mathcal{G}$ verbunden sind. Ohne Beschränkung der Allgemeinheit kann angenommen werden, dass $c_{x} < c_{y}$ gilt. Als nächstes entfernt man x aus S* und bezeichnet mit S' = S*\textbackslash\{x\} die so entstandene Menge. Das Gewicht von S' unterscheidet sich dann durch das Gewicht von S* durch den Ausdruck $-c_{x} + \sum_{j \in nbr(y) \cap S^*}J_{ij} > -c_{y} + J_{yz} > 0$, mit nbr(y) = $\{ z \in V: (z,y) \in E\}$. Das bedeutet also S' hat ein größeres Gewicht als S*, was einen Widerspruch zur Optimalität von S* darstellt. Die Annahme muss also falsch gewesen sein und S* muss eine unabhängige Menge sein. 
+\textbf{Reduction} (3-SAT $\leq_ {P}$ WMIS).
+Given a 3-SAT instance $\Psi(x_{1}, \dots, x_{n}) = C_{1} \wedge ... \wedge C_{m}$ consisting of \emph{m} clauses \emph{($C_{1}, ..., C_{m}$)} and \emph{n = 3m} variables. Construct a graph $G_{SAT}$ as follows:
+\begin{description}
+	\item[Step 1:]\hfill \\
+	For each clause $C_{i} = y_{i_{1}} \vee y_{i_{2}} \vee y_{i_{3}}$, $y_{j} \in \{x_{j}, \overline{x_{j}}\}$, a triangle is constructed, with the corners of the triangle being vertices labeled with the literals of this clause ($y_{i_{1}}, y_{i_{2}}, y_{i_{3}})$. Therefore the graph $G_{SAT}$ consists of 3m vertices.
+	\item[Step 2:]\hfill \\
+	Edges are added between vertices of different triangles if their labels conflict. That is, for two different triangles \emph{i} and \emph{j}, \emph{i} $\neq$ \emph{j}, which represent clause \emph{i} and \emph{j}, an edge is added, if there are variables $y_{i_{s}}$ and $y_{j_{t}}$, so that $y_{i_{s}} = \overline{y_{j_{t}}}$.
+\end{description}
+
+By doing this reduction the theorem after \cite{choi2010adiabatic} states, that an arbitrary 3-SAT formula $\Phi$, consisting of \emph{m} clauses, can be fulfilled, if the graph $G_{SAT}$, which was created by reducing $\Phi$ to a WMIS problem, has a WMIS of the size \emph{m}. 
+This assertion represents an important relation between the satisfiability of a 3-SAT problem and the solution of the WMIS problem, which we take into account in this work.\\
+
+For the sake of completeness we have to mention, that D-Wave's quantum annealer is designed to find the lowest energy state of a spin glass system, described by an Ising Hamiltonian (see equation \ref{eq:ising}). Here $ h_{i}$ is the on-site energy of qubit i, $J_{ij}$ are the interaction energies of two qubits i and j, and $s_{i}$ representing the spin (-1, +1) of the i-th qubit. So in order to execute the WMIS problem on the quantum annealing hardware , it has to be mapped to the Ising model. However, in \cite{choi2008minor} proof is given, that the WMIS problem is equivalent to the Ising model and no more modifications have to be made.
+
+\begin{equation}\label{eq:ising}
+	\mathcal{H}(s) = \sum_{i} h_{i}s_{i} + \sum_{i<j} J_{ij}s_{i}s_{j}
+\end{equation}
+
