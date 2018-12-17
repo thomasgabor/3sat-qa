@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.12.24)  17 DEC 2018 01:53
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.12.24)  17 DEC 2018 02:13
  restricted system commands enabled.
  file:line:error style messages enabled.
 **index.tex
@@ -23,7 +23,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.099 seconds
+luaotfload | main : initialization completed in 0.101 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (./llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
@@ -549,18 +549,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
 ) (./chapters/relatedwork.tex
 
-LaTeX Warning: Citation ` gendreau1994tabu' on page 4 undefined on input line 4.
-
-
-LaTeX Warning: Citation ` chen1995chaotic' on page 4 undefined on input line 4.
-
-
 LaTeX Warning: Citation `NPO-Compendium' on page 4 undefined on input line 4.
 
 [4]
-
-LaTeX Warning: Reference `TODO:Preliminaries' on page 5 undefined on input line 8.
-
 
 LaTeX Warning: Citation `TODO monasson1999determining' on page 5 undefined on input line 8.
 
@@ -591,62 +582,47 @@ Package luatex.def Info: ../material_2/Plots/42_4_2_def_engl_color_mit_transform
 
 LaTeX Warning: Reference `' on page 8 undefined on input line 17.
 
-[8] [9<../material_2/Plots/42_4_2_def_engl_color_mit_transform.png>]
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 19.
-
-<../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png, id=66, 435.7881pt x 351.2322pt>
+[8] <../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png, id=60, 435.7881pt x 351.2322pt>
 File: ../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png Graphic file (type png)
  <use ../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png>
 Package luatex.def Info: ../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png used on input line 23.
 (luatex.def)             Requested size: 277.69987pt x 223.8178pt.
 
+Underfull \vbox (badness 2126) has occurred while \output is active []
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 28.
+ [9<../material_2/Plots/42_4_2_def_engl_color_mit_transform.png>]
+Underfull \vbox (badness 2126) has occurred while \output is active []
 
-[10<../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png>] <../material_2/25_clauses__4_2_def_MISBIAS.png, id=71, 415.5525pt x 300.6432pt>
+ [10<../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png>] <../material_2/25_clauses__4_2_def_MISBIAS.png, id=71, 415.5525pt x 300.6432pt>
 File: ../material_2/25_clauses__4_2_def_MISBIAS.png Graphic file (type png)
  <use ../material_2/25_clauses__4_2_def_MISBIAS.png>
 Package luatex.def Info: ../material_2/25_clauses__4_2_def_MISBIAS.png used on input line 34.
 (luatex.def)             Requested size: 277.69987pt x 200.91609pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11] <../material_2/42_clauses__0_2_def_RANDOM_color_transformed.png, id=76, 421.3341pt x 354.123pt>
-File: ../material_2/42_clauses__0_2_def_RANDOM_color_transformed.png Graphic file (type png)
- <use ../material_2/42_clauses__0_2_def_RANDOM_color_transformed.png>
-Package luatex.def Info: ../material_2/42_clauses__0_2_def_RANDOM_color_transformed.png used on input line 42.
-(luatex.def)             Requested size: 173.56177pt x 145.8722pt.
- <../material_2/42_clauses__0_2_def_RANDOM_CLEVER_color_transformed.png, id=77, 434.3427pt x 354.123pt>
-File: ../material_2/42_clauses__0_2_def_RANDOM_CLEVER_color_transformed.png Graphic file (type png)
- <use ../material_2/42_clauses__0_2_def_RANDOM_CLEVER_color_transformed.png>
-Package luatex.def Info: ../material_2/42_clauses__0_2_def_RANDOM_CLEVER_color_transformed.png used on input line 43.
-(luatex.def)             Requested size: 173.56177pt x 141.50618pt.
-) (./chapters/conclusion.tex [12<../material_2/25_clauses__4_2_def_MISBIAS.png>]) (./index.bbl
+) (./chapters/conclusion.tex [11<../material_2/25_clauses__4_2_def_MISBIAS.png>]) (./index.bbl
 Underfull \hbox (badness 3792) in paragraph at lines 7--9
 []\TU/lmr/m/n/9 Al-bash, T., Li-dar, D.A.: Adi-a-batic quan-tum com-put-ing. arXiv preprint
  []
 
-[13<../material_2/42_clauses__0_2_def_RANDOM_color_transformed.png><../material_2/42_clauses__0_2_def_RANDOM_CLEVER_color_transformed.png>] [14]) [15] (./index.aux)
+[12] [13]) [14] (./index.aux)
 
 LaTeX Warning: There were undefined references.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 13507 strings out of 494481
+ 13485 strings out of 494481
  100000,319454 words of node,token memory allocated
  1217 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 10 disc, 16 glue, 5 kern, 77 glyph, 16 attribute, 56 glue_spec, 16 attribute_list, 1 write nodes
-   avail lists: 1:1,2:379,3:100,4:48,5:311,6:4127,7:953,8:21,9:126,10:20,11:379
- 16954 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:396,3:105,4:52,5:311,6:4127,7:953,8:21,9:126,10:20,11:379
+ 16944 multiletter control sequences out of 65536+600000
  49 fonts using 3809919 bytes
- 62i,9n,56p,1717b,343s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 62i,9n,56p,1718b,341s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-italic.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on index.pdf (15 pages, 316541 bytes).
+Output written on index.pdf (14 pages, 272527 bytes).
 
-PDF statistics: 193 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
+PDF statistics: 185 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

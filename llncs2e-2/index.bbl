@@ -71,6 +71,10 @@ Finnila, A., Gomez, M., Sebenik, C., Stenson, C., Doll, J.: Quantum annealing:
   a new method for minimizing multidimensional functions. Chemical physics
   letters  \textbf{219}(5-6),  343--348 (1994)
 
+\bibitem{gendreau1994tabu}
+Gendreau, M., Hertz, A., Laporte, G.: A tabu search heuristic for the vehicle
+  routing problem. Management science  \textbf{40}(10),  1276--1290 (1994)
+
 \bibitem{glover2013tabu}
 Glover, F., Laguna, M.: Tabu search*. In: Handbook of combinatorial
   optimization, pp. 3261--3362. Springer (2013)
@@ -114,6 +118,11 @@ Marriott, C., Watrous, J.: Quantum arthur--merlin games. Computational
 McGeoch, C.C.: Adiabatic quantum computation and quantum annealing: Theory and
   practice. Synthesis Lectures on Quantum Computing  \textbf{5}(2),  1--93
   (2014)
+
+\bibitem{mcgeoch2013experimental}
+McGeoch, C.C., Wang, C.: Experimental evaluation of an adiabiatic quantum
+  system for combinatorial optimization. In: Proceedings of the ACM
+  International Conference on Computing Frontiers. p.~23. ACM (2013)
 
 \bibitem{mezard2002random}
 M{\'e}zard, M., Zecchina, R.: Random k-satisfiability problem: From an analytic

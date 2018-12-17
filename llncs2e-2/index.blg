@@ -1,14 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
-White space in argument---line 26 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
- : \citation{glover2013tabu,
- :                           gendreau1994tabu}
-I'm skipping whatever remains of this command
-White space in argument---line 27 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
- : \citation{kirkpatrick1983optimization,
- :                                        chen1995chaotic}
-I'm skipping whatever remains of this command
 White space in argument---line 34 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
  : \citation{TODO
  :                monasson1999determining}
@@ -25,47 +17,46 @@ The style file: splncs04.bst
 Database file #1: references.bib
 Warning--I didn't find a database entry for "NPO-Compendium"
 Warning--I didn't find a database entry for "TODO"
-Warning--I didn't find a database entry for ""
 Warning--missing institution in apolloni1988numerical
-You've used 35 entries,
+You've used 37 entries,
             2850 wiz_defined-function locations,
-            819 strings with 10274 characters,
-and the built_in function-call counts, 19239 in all, are:
-= -- 1598
-> -- 500
-< -- 45
-+ -- 210
-- -- 172
-* -- 1180
-:= -- 2391
-add.period$ -- 42
-call.type$ -- 35
-change.case$ -- 203
+            832 strings with 10654 characters,
+and the built_in function-call counts, 20439 in all, are:
+= -- 1703
+> -- 529
+< -- 48
++ -- 223
+- -- 182
+* -- 1252
+:= -- 2536
+add.period$ -- 46
+call.type$ -- 37
+change.case$ -- 216
 chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 1796
-empty$ -- 1759
-format.name$ -- 198
-if$ -- 4232
+cite$ -- 38
+duplicate$ -- 1907
+empty$ -- 1870
+format.name$ -- 210
+if$ -- 4504
 int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 343
-newline$ -- 111
-num.names$ -- 70
-pop$ -- 619
+int.to.str$ -- 37
+missing$ -- 363
+newline$ -- 117
+num.names$ -- 74
+pop$ -- 656
 preamble$ -- 1
-purify$ -- 156
+purify$ -- 165
 quote$ -- 0
-skip$ -- 587
+skip$ -- 625
 stack$ -- 0
-substring$ -- 1139
-swap$ -- 1043
-text.length$ -- 45
+substring$ -- 1210
+swap$ -- 1108
+text.length$ -- 48
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 140
+type$ -- 148
 warning$ -- 1
-while$ -- 167
-width$ -- 37
-write$ -- 348
-(There were 5 error messages)
+while$ -- 177
+width$ -- 39
+write$ -- 369
+(There were 3 error messages)
