@@ -18,9 +18,9 @@ It can be observed that, with randomly generated K-SAT instances, the probabilit
 
 \begin{figure}
 	\centering
-	\includegraphics[width=.8\textwidth]{../material_2/plot_sat.pdf}
-	\caption{Phase transition of SAT solving. In the lower figure the computational time for finding a solution for 3-SAT instances with a specific clauses-to-variables ratio (c/v-ratio) can be seen. The critical point is around $\alpha_{c} \approx $ 4.267 . In this regard, the upper figure shows the propability, whether these problem instances are solvable. So for the critical point it's hard to determine, whether a problem instance can be fulfilled with a concrete allocation or not. TODO Achsenbeschriftung value/50 M/200 erklären} \label{fig:crit_sat}
-\end{figure}
+	\input{../material_2/plot_sat.tex}
+	\caption{Phase transition of SAT. The bottom plot shows the computational time required to determine satisfiability of randomly chosen 3-SAT instances with specific clauses-to-variables ratios (c/v-ratio) on a standard solver -- lines are used to guide the eye. The area around the critical point $\alpha_{c} \approx 4.267$ is shaded in blue.\newline
+          The upper portion shows the probability that instances with a particular c/v ratio are solvable. In the region around the critical point, it is hard to determine whether a problem instance can be fulfilled with a concrete allocation or not.} \label{fig:crit_sat} \end{figure}
 
 In order to assess the solution quality of randomly generated 3-SAT instances we take the phase transition into account
 and generate instances of every complexity region. More information about that in section Experimental Setup.
