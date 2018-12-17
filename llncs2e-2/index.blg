@@ -1,15 +1,23 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
-White space in argument---line 35 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
+White space in argument---line 26 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
+ : \citation{glover2013tabu,
+ :                           gendreau1994tabu}
+I'm skipping whatever remains of this command
+White space in argument---line 27 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
+ : \citation{kirkpatrick1983optimization,
+ :                                        chen1995chaotic}
+I'm skipping whatever remains of this command
+White space in argument---line 34 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
  : \citation{TODO
  :                monasson1999determining}
 I'm skipping whatever remains of this command
-White space in argument---line 37 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
+White space in argument---line 36 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
  : \citation{TODO,
  :                 TODO, TODO}
 I'm skipping whatever remains of this command
-White space in argument---line 38 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
+White space in argument---line 37 of file /Users/thomas/Documents/LMU Munich/3satqa/llncs2e-2/index.aux
  : \citation{TODO:
  :                 Originalpaper,albash2016adiabatic}
 I'm skipping whatever remains of this command
@@ -19,45 +27,45 @@ Warning--I didn't find a database entry for "NPO-Compendium"
 Warning--I didn't find a database entry for "TODO"
 Warning--I didn't find a database entry for ""
 Warning--missing institution in apolloni1988numerical
-You've used 37 entries,
+You've used 35 entries,
             2850 wiz_defined-function locations,
-            828 strings with 10796 characters,
-and the built_in function-call counts, 20521 in all, are:
-= -- 1692
-> -- 574
+            819 strings with 10274 characters,
+and the built_in function-call counts, 19239 in all, are:
+= -- 1598
+> -- 500
 < -- 45
-+ -- 244
-- -- 200
-* -- 1270
-:= -- 2568
-add.period$ -- 44
-call.type$ -- 37
-change.case$ -- 223
++ -- 210
+- -- 172
+* -- 1180
+:= -- 2391
+add.period$ -- 42
+call.type$ -- 35
+change.case$ -- 203
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 1899
-empty$ -- 1851
-format.name$ -- 229
-if$ -- 4488
+cite$ -- 36
+duplicate$ -- 1796
+empty$ -- 1759
+format.name$ -- 198
+if$ -- 4232
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 369
-newline$ -- 117
-num.names$ -- 74
-pop$ -- 675
+int.to.str$ -- 35
+missing$ -- 343
+newline$ -- 111
+num.names$ -- 70
+pop$ -- 619
 preamble$ -- 1
-purify$ -- 174
+purify$ -- 156
 quote$ -- 0
-skip$ -- 610
+skip$ -- 587
 stack$ -- 0
-substring$ -- 1194
-swap$ -- 1095
+substring$ -- 1139
+swap$ -- 1043
 text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 148
+type$ -- 140
 warning$ -- 1
-while$ -- 174
-width$ -- 39
-write$ -- 366
-(There were 3 error messages)
+while$ -- 167
+width$ -- 37
+write$ -- 348
+(There were 5 error messages)

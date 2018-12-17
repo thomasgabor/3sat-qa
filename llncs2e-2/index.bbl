@@ -37,6 +37,11 @@ Cheeseman, P.C., Kanefsky, B., Taylor, W.M.: Where the really hard problems
 Chen, L., Aihara, K.: Chaotic simulated annealing by a neural network model
   with transient chaos. Neural networks  \textbf{8}(6),  915--930 (1995)
 
+\bibitem{choi2008minor}
+Choi, V.: Minor-embedding in adiabatic quantum computation: I. the parameter
+  setting problem. Quantum Information Processing  \textbf{7}(5),  193--209
+  (2008)
+
 \bibitem{choi2010adiabatic}
 Choi, V.: Adiabatic quantum algorithms for the np-complete maximum-weight
   independent set, exact cover and 3sat problems. arXiv preprint
@@ -57,34 +62,14 @@ Farhi, E., Goldstone, J., Gosset, D., Gutmann, S., Meyer, H.B., Shor, P.:
   Quantum adiabatic algorithms, small gaps, and different paths. arXiv preprint
   arXiv:0909.4766  (2009)
 
-\bibitem{farhi2000numerical}
-Farhi, E., Goldstone, J., Gutmann, S.: A numerical study of the performance of
-  a quantum adiabatic evolution algorithm for satisfiability. arXiv preprint
-  quant-ph/0007071  (2000)
-
-\bibitem{farhi2001quantum}
-Farhi, E., Goldstone, J., Gutmann, S., Lapan, J., Lundgren, A., Preda, D.: A
-  quantum adiabatic evolution algorithm applied to random instances of an
-  np-complete problem. Science  \textbf{292}(5516),  472--475 (2001)
-
 \bibitem{farhi2000quantum}
 Farhi, E., Goldstone, J., Gutmann, S., Sipser, M.: Quantum computation by
   adiabatic evolution. arXiv preprint quant-ph/0001106  (2000)
-
-\bibitem{feld2018hybrid}
-Feld, S., Roch, C., Gabor, T., Seidel, C., Neukart, F., Galter, I., Mauerer,
-  W., Linnhoff-Popien, C.: A hybrid solution method for the capacitated vehicle
-  routing problem using a quantum annealer. arXiv preprint arXiv:1811.07403
-  (2018)
 
 \bibitem{finnila1994quantum}
 Finnila, A., Gomez, M., Sebenik, C., Stenson, C., Doll, J.: Quantum annealing:
   a new method for minimizing multidimensional functions. Chemical physics
   letters  \textbf{219}(5-6),  343--348 (1994)
-
-\bibitem{gendreau1994tabu}
-Gendreau, M., Hertz, A., Laporte, G.: A tabu search heuristic for the vehicle
-  routing problem. Management science  \textbf{40}(10),  1276--1290 (1994)
 
 \bibitem{glover2013tabu}
 Glover, F., Laguna, M.: Tabu search*. In: Handbook of combinatorial
@@ -138,6 +123,11 @@ M{\'e}zard, M., Zecchina, R.: Random k-satisfiability problem: From an analytic
 \bibitem{monasson1996entropy}
 Monasson, R., Zecchina, R.: Entropy of the k-satisfiability problem. Physical
   review letters  \textbf{76}(21), ~3881 (1996)
+
+\bibitem{monasson1999determining}
+Monasson, R., Zecchina, R., Kirkpatrick, S., Selman, B., Troyansky, L.:
+  Determining computational complexity from characteristic ‘phase
+  transitions’. Nature  \textbf{400}(6740), ~133 (1999)
 
 \bibitem{morimae2017merlinization}
 Morimae, T., Nishimura, H.: Merlinization of complexity classes above bqp.

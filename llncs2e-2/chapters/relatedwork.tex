@@ -1,5 +1,6 @@
-
 \section{Related Work}
+\label{sec:related-work}
+
 It is one of the cornerstones of complexity theory that solving NP-complete or even NP-hard decision problems is not efficiently possible (e.g., \cite{cook1971complexity,murty1987some}). Any NP-complete problem can also be cast as an optimisation problem, which allows for employing well-known optimisation algorithms to find approximate solutions -- typical methods include tabu search (see, e.g.,~\cite{glover2013tabu, gendreau1994tabu}) and simulated annealing (see, e.g.,~\cite{kirkpatrick1983optimization, chen1995chaotic}). Countless other efficient approximation methods, together with an elaborate taxonomy on approximation quality (how much does a given solution differ from a known global optimum?) and computational effort (how many time steps are required until an approximate solution that satisfies given quality goals is available?), have been devised (see, e.g.,~\cite{NPO-Compendium}).
 
 Some problems, for instance knapsack, exhibit favourable properties when cast as an optimisation problem. The latter is a member of the complexity class FPTAS (fully polynomial-time approximation scheme), which means that a solution with distance \(1+\epsilon\) (of course, $\epsilon > 0$) from an optimal solution can be determined in polynomial time in both, input size \(n\) and \(1/\epsilon\)~\cite{chen1995chaotic}.
