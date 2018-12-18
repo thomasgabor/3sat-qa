@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.12.24)  17 DEC 2018 02:13
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.12.24)  18 DEC 2018 01:08
  restricted system commands enabled.
  file:line:error style messages enabled.
 **index.tex
@@ -23,7 +23,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.101 seconds
+luaotfload | main : initialization completed in 0.103 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (./llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
@@ -446,31 +446,23 @@ Package amsmath Warning: Unable to redefine math accent \vec.
 \mathdisplay@stack=\toks37
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/theorem.sty
-Package: theorem 2014/10/28 v2.2c Theorem extension package (FMi)
-\theorem@style=\toks38
-\theorem@bodyfont=\toks39
-\theorempreskipamount=\skip51
-\theorempostskipamount=\skip52
- (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/thp.sty
-File: thp.sty 2014/10/28 v2.2c Theorem extension package (FMi)
-)) (./index.aux)
+) (./index.aux)
 \openout1 = index.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
  (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count153
@@ -478,12 +470,12 @@ LaTeX Font Info:    ... okay on input line 18.
 \scratchbox=\box67
 \nofMPsegments=\count154
 \nofMParguments=\count155
-\everyMPshowfont=\toks40
+\everyMPshowfont=\toks38
 \MPscratchCnt=\count156
 \MPscratchDim=\dimen185
 \MPnumerator=\count157
 \makeMPintoPDFobject=\count158
-\everyMPtoPDFconversion=\toks41
+\everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -507,7 +499,7 @@ Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks42
+\pdftexcmds@toks=\toks40
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
@@ -517,33 +509,33 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-bold.luc) (./chapters/introduction.tex [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./chapters/preliminaries.tex(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc)
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./chapters/preliminaries.tex(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-italic.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc)
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc)
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[2] <../material_2/plot_sat.pdf, id=23, 505.89pt x 289.08pt>
+[2] <../material_2/plot_sat.pdf, id=26, 505.89pt x 289.08pt>
 File: ../material_2/plot_sat.pdf Graphic file (type pdf)
  <use ../material_2/plot_sat.pdf>
-Package luatex.def Info: ../material_2/plot_sat.pdf used on input line 21.
+Package luatex.def Info: ../material_2/plot_sat.pdf used on input line 32.
 (luatex.def)             Requested size: 277.69987pt x 158.68571pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 [3<../material_2/plot_sat.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
@@ -570,59 +562,37 @@ LaTeX Warning: Citation ` TODO' on page 5 undefined on input line 8.
 
 LaTeX Warning: Citation `TODO: Originalpaper' on page 5 undefined on input line 10.
 
-
-Underfull \vbox (badness 3601) has occurred while \output is active []
-
- [5]) (./chapters/experimentalsetup.tex(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-italic.luc)(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc) [6](load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc) [7]) (./chapters/evaluation.tex <../material_2/Plots/42_4_2_def_engl_color_mit_transform.png, id=56, 435.7881pt x 351.2322pt>
+[5]) (./chapters/experimentalsetup.tex [6](load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc) [7]) (./chapters/evaluation.tex [8] <../material_2/Plots/42_4_2_def_engl_color_mit_transform.png, id=59, 435.7881pt x 351.2322pt>
 File: ../material_2/Plots/42_4_2_def_engl_color_mit_transform.png Graphic file (type png)
  <use ../material_2/Plots/42_4_2_def_engl_color_mit_transform.png>
 Package luatex.def Info: ../material_2/Plots/42_4_2_def_engl_color_mit_transform.png used on input line 12.
-(luatex.def)             Requested size: 277.69987pt x 223.8178pt.
-(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-italic.luc)
-
-LaTeX Warning: Reference `' on page 8 undefined on input line 17.
-
-[8] <../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png, id=60, 435.7881pt x 351.2322pt>
+(luatex.def)             Requested size: 242.98541pt x 195.83655pt.
+(load luc: /Users/thomas/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-italic.luc) [9<../material_2/Plots/42_4_2_def_engl_color_mit_transform.png>] <../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png, id=66, 435.7881pt x 351.2322pt>
 File: ../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png Graphic file (type png)
  <use ../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png>
 Package luatex.def Info: ../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png used on input line 23.
-(luatex.def)             Requested size: 277.69987pt x 223.8178pt.
-
-Underfull \vbox (badness 2126) has occurred while \output is active []
-
- [9<../material_2/Plots/42_4_2_def_engl_color_mit_transform.png>]
-Underfull \vbox (badness 2126) has occurred while \output is active []
-
+(luatex.def)             Requested size: 242.98541pt x 195.83655pt.
  [10<../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png>] <../material_2/25_clauses__4_2_def_MISBIAS.png, id=71, 415.5525pt x 300.6432pt>
 File: ../material_2/25_clauses__4_2_def_MISBIAS.png Graphic file (type png)
  <use ../material_2/25_clauses__4_2_def_MISBIAS.png>
 Package luatex.def Info: ../material_2/25_clauses__4_2_def_MISBIAS.png used on input line 34.
-(luatex.def)             Requested size: 277.69987pt x 200.91609pt.
-) (./chapters/conclusion.tex [11<../material_2/25_clauses__4_2_def_MISBIAS.png>]) (./index.bbl
-Underfull \hbox (badness 3792) in paragraph at lines 7--9
-[]\TU/lmr/m/n/9 Al-bash, T., Li-dar, D.A.: Adi-a-batic quan-tum com-put-ing. arXiv preprint
- []
-
-[12] [13]) [14] (./index.aux)
-
-LaTeX Warning: There were undefined references.
-
-)
+(luatex.def)             Requested size: 242.98541pt x 175.79527pt.
+) (./chapters/conclusion.tex [11<../material_2/25_clauses__4_2_def_MISBIAS.png>]) (./index.bbl [12]) [13] (./index.aux))
 
 Here is how much of LuaTeX's memory you used:
- 13485 strings out of 494481
+ 13451 strings out of 494481
  100000,319454 words of node,token memory allocated
- 1217 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 10 disc, 16 glue, 5 kern, 77 glyph, 16 attribute, 56 glue_spec, 16 attribute_list, 1 write nodes
-   avail lists: 1:1,2:396,3:105,4:52,5:311,6:4127,7:953,8:21,9:126,10:20,11:379
- 16944 multiletter control sequences out of 65536+600000
+ 1191 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 10 disc, 15 glue, 5 kern, 77 glyph, 15 attribute, 53 glue_spec, 15 attribute_list, 1 write nodes
+   avail lists: 1:1,2:365,3:91,4:44,5:266,6:3807,7:878,8:29,9:143,10:21,11:427
+ 16924 multiletter control sequences out of 65536+600000
  49 fonts using 3809919 bytes
- 62i,9n,56p,1718b,341s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 62i,9n,56p,1718b,334s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-italic.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on index.pdf (14 pages, 272527 bytes).
+Output written on index.pdf (13 pages, 272844 bytes).
 
-PDF statistics: 185 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+PDF statistics: 182 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

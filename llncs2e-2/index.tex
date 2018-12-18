@@ -4,10 +4,12 @@
 %
 \documentclass[runningheads]{llncs}
 %
+%\let\proof\relax
+%\let\endproof\relax
 \usepackage{graphicx}
 \usepackage{todonotes}
 \usepackage{amsmath}
-\usepackage{theorem}
+%\usepackage{amsthm}
 % Used for displaying a sample figure. If possible, figure files should
 % be included in EPS format.
 %
@@ -45,9 +47,9 @@ OTH Regensburg}
 \maketitle              % typeset the header of the contribution
 %
 \begin{abstract}
-When solving propositional logic satisfiability (3SAT) instances using a quantum annealer, we analyze the effect the difficulty of every instance has on the distribution of correct and incorrect solutions returned by the quantum annealer. We show that the phase transition known for 3SAT on classical machines persists in some form (but possibly to a lesser extent) for quantum annealing.
+When solving propositional logic satisfiability (specifically 3SAT) using a quantum annealer, we analyze the effect the difficulty of different instances of the problem has on the distribution of correct and incorrect solutions returned by the quantum annealer. We show that the phase transition causing a detrimental increase in runtime known for 3SAT on classical machines persists in some form (but possibly to a lesser extent) for quantum annealing.
 
-\keywords{Quantum Computing \and Quantum Annealing \and 3SAT \and Boolean satisfiability \and NP \and phase transition.}
+\keywords{Quantum Computing \and Quantum Annealing \and D-Wave \and 3SAT \and Boolean satisfiability \and NP \and phase transition.}
 \end{abstract}
 %
 %
