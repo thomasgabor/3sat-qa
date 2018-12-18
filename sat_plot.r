@@ -14,7 +14,7 @@ WIDTH.CRIT <- 0.15
 g <- ggplot(dat.molten, aes(x=M/200, y=value)) +
     geom_point(size=1.1, alpha=0.2) + geom_line() +
     facet_grid(variable~., scales="free_y") +
-    xlab("Clauses to variables ratio") + ylab("") +
+    xlab("clauses-to-variables ratio $\\alpha$") + ylab("") +
     annotate("rect", xmin=CRIT-WIDTH.CRIT , xmax=CRIT-WIDTH.CRIT,
              ymin=-Inf, ymax=Inf, alpha=0.2, fill="blue")
 
