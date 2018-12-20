@@ -10,7 +10,7 @@ provide this information to the solver.
 \begin{figure}[t]
 \centering
 %\includegraphics[width=.5\textwidth]{../material_2/Plots/42_4_2_def_engl_color_ohne_transform.png}%
-\includegraphics[width=.75\textwidth]{../material_2/Plots/42_4_2_def_engl_color_mit_transform.png}
+\includegraphics[width=.65\textwidth]{../material_2/Plots/42_4_2_def_engl_color_mit_transform.png}
 \caption{Distribution of correct (green) and incorrect (red) answers returned by the quantum annealer \emph{without D-WAVE postprocessing}. Answers that can trivially be transformed into valid answers using logical postprocessing are marked in yellow. The plot shows 100,000 answers in total for 100 different hard 3SAT instances ($\alpha \approx 4.2$).}
 \label{fig:distr-no-pp}
 \end{figure}
@@ -21,18 +21,18 @@ Furthermore, we applied the logical postprocessing described in Section~\ref{sec
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=.75\textwidth]{../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png}
+\includegraphics[width=.65\textwidth]{../material_2/Plots/42_4_2_opt_engl_color_mit_transform.png}
 \caption{Distribution of correct (green) and incorrect (red) answers returned by the quantum annealer \emph{using D-WAVE postprocessing}. Answers that can trivially be transformed into valid answers using logical postprocessing are marked in yellow. The plot shows 100,000 answers in total for 100 different hard 3SAT instances ($\alpha \approx 4.2$).}
 \label{fig:distr-yes-pp}
 \end{figure}
 
-We observed that the D-Wave postprocessing managed to optimize all correct but ``incomplete'' answers, mapping them to a solution with 42 bits assigned the value $\textit{True}$. Out of the 100,000 queries, this yielded 25,142 correct answers. Moreover, these correct answers span 99 of the 100 randomly generated 3SAT instances so that we consider the problem solved. Effectively, this shows that quantum annealing does suffer from a breakdown in performance at the point of the phase transition in the 3SAT problem. In comparison to the immense decrease in performance seen in classical solvers (cf. Section~\ref{sec:preliminaries}), a drop to around 25\% appears rather desirable, though. A quick example: To achieve a $1 - 10^{-12}$ confidence of returning the correct answer our experimental setup requires around $97$ queries. At a glance, that scaling factor with respect to problem difficulty is much better than what is observed for classical algorithms. It is important to note, however, that these experiments were performed for problem instances so small that their evaluation does not pose a challenge to classical processors at all, i.e., below the point of reasonable performance metrics. These results only proof relevant to practical applications if they scale with future versions of quantum annealing hardware that can tackle much larger problem instances.
+We observed that the D-Wave postprocessing managed to optimize all correct but ``incomplete'' answers, mapping them to a solution with 42 bits assigned the value $\textit{True}$. Out of the 100,000 queries, this yielded 25,142 correct answers. Moreover, these correct answers span 99 of the 100 randomly generated 3SAT instances so that we consider the problem solved. Effectively, this shows that quantum annealing does suffer from a breakdown in expected solution quality at the point of the phase transition in the 3SAT problem. In comparison to the immense decrease in performance seen in classical solvers (cf. Section~\ref{sec:preliminaries}), a drop to around 25\% precision appears rather desirable, though. A quick example: To achieve a $1 - 10^{-12}$ confidence of returning the correct answer our experimental setup requires around $97$ queries. At a glance, that scaling factor with respect to problem difficulty is much better than what is observed for classical algorithms: For example, in the data used for Figure~\ref{fig:crit_sat} we observed performance decrease up to one order of magnitude larger. It is important to note, however, that these experiments were performed for problem instances so small that their evaluation does not pose a challenge to classical processors at all, i.e., below the point of reasonable performance metrics. Thus, these results only proof relevant to practical applications if they scale with future versions of quantum annealing hardware that can tackle much larger problem instances.
 
 So far, we have not discerned between different correct solutions. We were content as long as the algorithm returned but one. However, for the user it is interesting to know if he or she will receive the same solution with every answer or an even distribution across the complete solution space. Our experiments show that when a lot of correct solutions are found for a certain problem instance, there are cases where we can see a clear bias towards a specific solution variant. Figure~\ref{fig:distr-sols} shows the distributions of specific solutions. While some formulae seem to yield rather narrow distributions over the different possible answers, others definitely seem to have a bias towards certain solutions. However, the former also tend to have relatively smaller sample sizes as there are less solutions in total to consider. Further investigation could still reveal a distinctive distribution in these cases as well. Thus, we consider this behavior of the quantum annealer to be roughly in line with the findings of \cite{mandra2017exponentially}, who show an exponential bias in ground-state sampling of a quantum annealer.
 
 \begin{figure}
 \centering
-\includegraphics[width=.75\textwidth]{../material_2/25_clauses__4_2_def_MISBIAS.png}
+\includegraphics[width=.65\textwidth]{../material_2/25_clauses__4_2_def_MISBIAS.png}
 \caption{Frequency of occurrence of different solutions for 5 formulae with many returned solutions. While most solutions are found once or just a few times, there are specific solutions that are found much more often.} \label{fig:distr-sols}
 \end{figure}
 

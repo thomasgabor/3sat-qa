@@ -48,7 +48,7 @@ OTH Regensburg/Siemens Corporate Research}
 \maketitle              % typeset the header of the contribution
 %
 \begin{abstract}
-When solving propositional logic satisfiability (specifically 3SAT) using a quantum annealer, we analyze the effect the difficulty of different instances of the problem has on the distribution of correct and incorrect solutions returned by the quantum annealer. We show that the phase transition causing a detrimental increase in runtime known for 3SAT on classical machines persists in some form (but possibly to a lesser extent) for quantum annealing.
+When solving propositional logic satisfiability (specifically 3SAT) using quantum annealing, we analyze the effect the difficulty of different instances of the problem has on the quality of the answer returned by the quantum annealer. A high-quality response from the annealer in this case is defined by a high percentage of correct solutions among the returned answers. We show that the phase transition regarding the computational complexity of the problem, which is well-known to occur for 3SAT on classical machines (where it causes a detrimental increase in runtime), persists in some form (but possibly to a lesser extent) for quantum annealing.
 
 \keywords{Quantum Computing \and Quantum Annealing \and D-Wave \and 3SAT \and Boolean satisfiability \and NP \and phase transition.}
 \end{abstract}
@@ -61,6 +61,9 @@ When solving propositional logic satisfiability (specifically 3SAT) using a quan
 \input{chapters/experimentalsetup.tex}
 \input{chapters/evaluation.tex}
 \input{chapters/conclusion.tex}
+
+\section*{Acknowledgement}
+Research was funded by Volkswagen Group, department Group IT. 
 %
 % ---- Bibliography ----
 %
